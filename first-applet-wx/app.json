@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cfl/cfl"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTitleText": "点photo有惊喜哟！！！",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFDAB9",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#404040",
+    "selectedColor": "#1C86EE",
+    "backgroundColor": "#8A8A8A",
+    "borderStyle": "white",
+    "position": "buttom",
+    "list": [
+      {
+        "selectedIconPath": "/wximages/index.png",
+        "iconPath": "/wximages/index.png",
+        "pagePath": "pages/index/index",
+        "text": "index"
+      },
+      {
+        "selectedIconPath": "/wximages/logs.png",
+        "iconPath": "/wximages/logs.png",
+        "pagePath": "pages/cfl/cfl",
+        "text": "photo"
+      }
+    ]
+  }
+}
